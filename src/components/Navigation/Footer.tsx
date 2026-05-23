@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import './Footer.css'
+import './Footer.scss'
 
 export const Footer = () => {
   return (
@@ -13,9 +13,9 @@ export const Footer = () => {
               Curating luxury organic cosmetics designed to elevate your everyday ritual. Reveal your inner glow with sustainably sourced, premium ingredients.
             </p>
             <div className="social-links">
-              <a href="#" aria-label="Instagram">IG</a>
-              <a href="#" aria-label="Pinterest">PIN</a>
-              <a href="#" aria-label="Facebook">FB</a>
+              <a href="https://www.instagram.com" aria-label="Instagram" target="_blank" rel="noreferrer">IG</a>
+              <a href="https://www.pinterest.com" aria-label="Pinterest" target="_blank" rel="noreferrer">PIN</a>
+              <a href="https://www.facebook.com" aria-label="Facebook" target="_blank" rel="noreferrer">FB</a>
             </div>
           </div>
 
